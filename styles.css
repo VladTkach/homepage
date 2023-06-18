@@ -92,7 +92,14 @@ body {
 }
 
 .contact-info__block--center {
+    width: 50%;
     justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.contact-info__block {
+    width: 25%;
 }
 
 .contact-info__item {

@@ -92,7 +92,14 @@ body {
 }
 
 .contact-info__block--center {
+    width: 50%;
     justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.contact-info__block {
+    width: 25%;
 }
 
 .contact-info__item {
@@ -217,6 +224,11 @@ body {
     padding-left: 20px;
 }
 
+.experiences__company-item {
+    color: var(--secondary-text-color);
+    text-decoration: none;
+}
+
 .additional-info {
     flex: 1 1 40%;
 }
@@ -229,6 +241,10 @@ body {
     color: var(--secondary-text-color);
     text-align: left;
     margin-bottom: 20px;
+}
+
+.additional-info__education-university {
+    margin-top: 15px;
 }
 
 .additional-info__education-university-durability {
